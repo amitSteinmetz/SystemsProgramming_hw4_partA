@@ -9,7 +9,7 @@ bool Character::isAlive()
 {
     return true;
 }
-double Character::distance(const Character* other) const
+double Character::distance(Character* other) const
 {
     return 1;
 }
