@@ -17,7 +17,7 @@ class Character
     // Methods:
     public:
     bool isAlive();
-    double distance(const Character* other) const;
+    double distance(Character* other) const;
     void hit(int hit_points);
     std::string getName() const;
     Point getLocation() const;
